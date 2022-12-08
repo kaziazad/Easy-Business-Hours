@@ -1,0 +1,38 @@
+.weekly-hours table{
+    border: none;
+  }
+  
+.table-row td{
+    text-transform: uppercase;
+ }
+ 
+ .table-row td:last-child{
+    text-align: right;
+ }
+ 
+ .bhp-active-day{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+ }
+ 
+ .weekly-hours-calender{
+   color: #fff;
+ }
+ .weekly-hours-calender table{
+   border: none;
+ }
+ 
+ .active-day-footer{
+   background-color: #fff;
+   color: #000!important;
+ }
+
+ .weekly-offday{
+  background-color: red;
+  color: white;
+  font-weight: 700;
+ }
+
+ 
+
