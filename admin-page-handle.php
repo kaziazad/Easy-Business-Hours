@@ -54,7 +54,7 @@ if( class_exists( 'CSF' ) ) {
                 'type'        => 'background',
                 'title'       => 'Calendar Background',
                 'output'      => '.weekly-hours-calender',
-                // 'output_mode' => 'background-color'
+                
             ),
             // Field for color of text
             array(
@@ -109,7 +109,7 @@ if( class_exists( 'CSF' ) ) {
                 'type'        => 'color',
                 'title'       => 'Weekly Offday Background',
                 'default'     => 'red',
-                'output'      => '.weekly-offday-background',
+                'output'      => '.weekly-offday',
                 'output_mode' => 'background-color'
             ),
 
@@ -119,7 +119,7 @@ if( class_exists( 'CSF' ) ) {
                 'type'  => 'color',
                 'title' => 'Weekly Offday Text Color',
                 'default'=> 'white',
-                'output'      => '.weekly-offday-text',
+                'output'      => '.weekly-offday',
                 'output_mode' => 'color'
             ),
 

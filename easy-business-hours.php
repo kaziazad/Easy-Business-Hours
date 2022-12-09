@@ -110,20 +110,20 @@ final class Easy_Business_Hours{
         <!-- html markup for calender start -->
         <div class="weekly-hours-calender">
             <table>
-                <tr class="table-row <?php echo $monday . $monday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($monday) . esc_attr($monday_off); ?>">
                     <td>Monday</td>
                     <td><?php if(isset($options['opt-monday-time']['from']) && isset($options['opt-monday-time']['to'])){
-                        echo $options['opt-monday-time']['from']."-".$options['opt-monday-time']['to'];
+                        echo esc_html($options['opt-monday-time']['from']) . "-" . esc_html($options['opt-monday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
                     
                     ?></td>
                 </tr>
-                <tr class="table-row <?php echo $tuesday . $tuesday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($tuesday) . esc_attr($tuesday_off); ?>">
                     <td>Tuesday</td>
                     <td><?php if(isset($options['opt-tuesday-time']['from']) && isset($options['opt-tuesday-time']['to'])){
-                        echo $options['opt-tuesday-time']['from']."-".$options['opt-tuesday-time']['to'];
+                        echo esc_html($options['opt-tuesday-time']['from']) . "-" . esc_html($options['opt-tuesday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
@@ -131,10 +131,10 @@ final class Easy_Business_Hours{
                     ?></td>
                 </tr>
 
-                <tr class="table-row <?php echo $wednesday . $wednesday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($wednesday) . esc_attr($wednesday_off); ?>">
                     <td>Wednesday</td>
                     <td><?php if(isset($options['opt-wednesday-time']['from']) && isset($options['opt-wednesday-time']['to'])){
-                        echo $options['opt-wednesday-time']['from']."-".$options['opt-wednesday-time']['to'];
+                        echo esc_html($options['opt-wednesday-time']['from']) . "-" . esc_html($options['opt-wednesday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
@@ -142,20 +142,20 @@ final class Easy_Business_Hours{
                     ?></td>
                 </tr>
 
-                <tr class="table-row <?php echo $thursday .  $thursday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($thursday) . esc_attr($thursday_off); ?>">
                     <td>Thursday</td>
                     <td><?php if(isset($options['opt-thursday-time']['from']) && isset($options['opt-thursday-time']['to'])){
-                        echo $options['opt-thursday-time']['from']."-".$options['opt-thursday-time']['to'];
+                        echo esc_html($options['opt-thursday-time']['from']) . "-" . esc_html($options['opt-thursday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
                     
                     ?></td>
                 </tr>
-                <tr class="table-row <?php echo $friday . $friday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($friday) . esc_attr($friday_off); ?>">
                     <td>Friday</td>
                     <td><?php if(isset($options['opt-friday-time']['from']) && isset($options['opt-friday-time']['to'])){
-                        echo $options['opt-friday-time']['from']."-".$options['opt-friday-time']['to'];
+                        echo esc_html($options['opt-friday-time']['from']) . "-" . esc_html($options['opt-friday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
@@ -163,10 +163,10 @@ final class Easy_Business_Hours{
                     ?></td>
                 </tr>
 
-                <tr class="table-row <?php echo $saturday . $saturday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($saturday) . esc_attr($saturday_off); ?>">
                     <td>Saturday</td>
                     <td><?php if(isset($options['opt-saturday-time']['from']) && isset($options['opt-saturday-time']['to'])){
-                        echo $options['opt-saturday-time']['from']."-".$options['opt-saturday-time']['to'];
+                        echo esc_html($options['opt-saturday-time']['from']) . "-" . esc_html($options['opt-saturday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
@@ -174,10 +174,10 @@ final class Easy_Business_Hours{
                     ?></td>
                 </tr>
 
-                <tr class="table-row <?php echo $sunday . $sunday_off; ?>">
+                <tr class="table-row <?php echo esc_attr($sunday) . esc_attr($sunday_off); ?>">
                     <td>Sunday</td>
                     <td><?php if(isset($options['opt-sunday-time']['from']) && isset($options['opt-sunday-time']['to'])){
-                        echo $options['opt-sunday-time']['from']."-".$options['opt-sunday-time']['to'];
+                        echo esc_html($options['opt-sunday-time']['from']) . "-" . esc_html($options['opt-sunday-time']['to']);
                     }else{
                         echo "09:00-17:00";
                     }
